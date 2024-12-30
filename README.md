@@ -73,6 +73,6 @@
     ```
 	riscv64-unknown-elf-objdump -d sum1ton.o
 	```
-6. # Objdump using O1 format
+6. ### Objdump using O1 format
 ![2](https://github.com/user-attachments/assets/f4705547-c769-48ef-b284-802e89a252cb)
 ![3](https://github.com/user-attachments/assets/6c218bc9-7aff-4bc6-87d9-e519cff8f9d1)
