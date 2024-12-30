@@ -61,7 +61,11 @@
     ```
     riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
 	```
-4. Open the new Terminal tab and run this command.
+4. Enter this command in terminal.
+    ```
+	ls -ltr sum1ton.o
+	```
+5. Open the new Terminal tab and run this command.
     ```
 	riscv64-unknown-elf-objdump -d sum1ton.o
 	```
