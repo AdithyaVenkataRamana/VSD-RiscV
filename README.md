@@ -61,11 +61,18 @@
     ```
     riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
 	```
+    
 4. Enter this command in terminal.
     ```
 	ls -ltr sum1ton.o
 	```
+    ![1](https://github.com/user-attachments/assets/142f5936-7c84-4863-8ddb-860187c032f4)
+
 5. Open the new Terminal tab and run this command.
+   
     ```
 	riscv64-unknown-elf-objdump -d sum1ton.o
 	```
+6. # Objdump using O1 format
+![2](https://github.com/user-attachments/assets/f4705547-c769-48ef-b284-802e89a252cb)
+![3](https://github.com/user-attachments/assets/6c218bc9-7aff-4bc6-87d9-e519cff8f9d1)
