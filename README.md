@@ -50,3 +50,18 @@
    ![4](https://github.com/user-attachments/assets/ba9d132e-136e-4eac-a9c3-e01865de6486)
    ![5](https://github.com/user-attachments/assets/2018dc2e-dd75-4e16-9cc0-477d98079f9f)
    ![6](https://github.com/user-attachments/assets/7da14d9e-901b-481c-9233-60dd19b7a74b)
+## RISC based lab
+
+1. Enter this CAT command in terminal.
+    ```
+    cat sum1ton.c
+	```
+2. Then Program is displayed in the terminal.
+3. Now run this following command in terminal  to compile the code in riscv64 gcc compiler:
+    ```
+    riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
+	```
+4. Open the new Terminal tab and run this command.
+    ```
+	riscv64-unknown-elf-objdump -d sum1ton.o
+	```
