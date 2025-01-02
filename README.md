@@ -2,7 +2,7 @@
 -------------------------------------------------
 
 <details>
-<summary><b>Task 1:</b> Task 1</summary>
+<summary><b>Task:</b> 1</summary>
 
 ## C based lab
 1. Install Leafpad in terminal.
